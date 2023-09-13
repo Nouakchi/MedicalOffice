@@ -1,4 +1,4 @@
-# MedicalOffice
+# MedicalOffice Dashboard
 
 ## Project setup
 ```
