@@ -1,0 +1,52 @@
+post  http://192.168.1.68:4000/collab/login
+Content-Type: application/json
+
+{
+    "login":"othmane@medinfo.ma",
+    "pword":"sa"
+}
+
+###
+post  http://192.168.1.68:4000/patient/all
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbF9pZCI6Im90aG1hbmVAbWVkaW5mby5tYSIsImlhdCI6MTY1MzQwMjI0NSwiZXhwIjoxNjUzNDMxMDQ1fQ.c7IaYIw55kQy1un_UOQ-2sOGJqJRP-s1bDjcxx4FXv0",
+    "name":"Akram"
+}
+
+###
+post http://192.168.1.68:4000/patient/All
+Content-Type: application/json
+
+{   
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX0lkIjoxLCJsb2dpbiI6InNhIiwiaWF0IjoxNjUzMzk3OTEzLCJleHAiOjE2NTM0MjY3MTN9.qp4KO9SigL-mTGxVa0U5KP9O1fyS2JuYqVBs8_N1TD4"
+}
+
+###
+post http://192.168.1.68:4000/patient/traiter
+Content-Type: application/json
+
+{   
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX0lkIjoxLCJsb2dpbiI6InNhIiwiaWF0IjoxNjUzNDAyMDk5LCJleHAiOjE2NTM0MzA4OTl9.qKJ75hr3kgnDMh8V0mVVkeqVcSHPeb_s5dRVqzoR61A",
+    "id":15,
+    "cin":"Z74123",
+    "nomcomplet":"MOHAMMED AKRAM ENNOUAIMI",
+    "datenaissance":"21/10/2001",
+    "sexe":"H",
+    "adresse":"Ain sebaa Casablanca",
+    "telephone":"+212685214523",
+    "email":"emohamedakram@gmail.com",
+    "situation":"C",
+    "fk_mutuelle_id":1,
+    "fk_users_id":3
+}
+
+###
+post http://192.168.1.68:4000/patient/delete
+Content-Type: application/json
+
+{   
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX0lkIjoxLCJsb2dpbiI6InNhIiwiaWF0IjoxNjUzNDAyMDk5LCJleHAiOjE2NTM0MzA4OTl9.qKJ75hr3kgnDMh8V0mVVkeqVcSHPeb_s5dRVqzoR61A",
+    "id":9 
+}
